@@ -1,7 +1,8 @@
 Source: libunwind
 Priority: optional
 Section: libs
-Maintainer: Adrian Bunk <bunk@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Adrian Bunk <bunk@debian.org>
 Build-Depends: debhelper (>= 10), liblzma-dev <!pkg.libunwind.nolzma>, texlive-extra-utils <!stage1>
 Build-Conflicts: liblzma-dev <pkg.libunwind.nolzma>
 Standards-Version: 4.1.1

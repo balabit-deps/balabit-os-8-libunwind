@@ -1,3 +1,11 @@
+libunwind (1.2.1-9ubuntu0.1) focal; urgency=medium
+
+  * Manually enable C++ exception support only on i386 and amd64,
+    it is known broken on several other architectures.
+    Thanks to Bernhard Übelacker. (Closes: #923962) (LP: #1999104)
+
+ -- Matthew Ruffell <matthew.ruffell@canonical.com>  Tue, 13 Dec 2022 12:07:17 +1300
+
 libunwind (1.2.1-9build1) focal; urgency=medium
 
   * No-change rebuild for libgcc-s1 package name change.
